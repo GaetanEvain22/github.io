@@ -1,0 +1,406 @@
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="Gaetan EVAIN developpeur" content="Portefolio de Gaetan EVAIN - developpeur junior">
+    <link rel="shortcut icon" href="Image/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/global.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex">
+            <div class="logo">
+                <b>G.Evain</b>
+            </div>
+            <nav class="navbar">
+                <ul class="menu list-unstyled">
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#services">Le BTS</a></li>
+                    <li><a href="#skills">Competences</a></li>
+                    <li><a href="#portfolio">Portefolio</a></li>
+                    <li><a href="Blog.html">Le Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav>
+            <div class="right">
+                <ul class="socials list-unstyled">
+                    <li><a href="www.linkedin.com/in/gaetan-e-273b56182" target="_blank">
+                            <svg class="icon linkedin" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                            </svg>
+                        </a></li>
+                    <li><a href="" target="_blank">
+                            <svg class="icon github" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 496 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                            </svg>
+                        </a></li>
+                </ul>
+                <button class="burger"><span class="bar"></span></button>
+            </div>
+        </div>
+    </header>
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="grid">
+                <div class="hero__item left">
+                    <span>Developpeur junior</span>
+                    <H1>Salutation ! Je suis Gaëtan Evain</H1>
+                    <p><i> "Dans mon monde à moi y'a que des ponets ils mangent des arcs-en-ciel et fond des cacas
+                            papillons" <b>Kathy</b> dans Horton (2008)</i></p>
+                </div>
+                <div class="hero__item right">
+                    <div class="hero__avatar">
+                        <img src="Image/avatar.jpg" alt="Licorne avec lunette de soleil">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <img width="560" height="456" src="Image/Licorne1.jpg" alt="Licorne impressionniste">
+                </div>
+                <div class="grid__item">
+                    <h2 class="section-title">A propos</h2>
+                    <h3>Qui suis-je ?</h3>
+                    <p>Bienvenue son mon portfolio, avant de continuer plus amont, je vous propose une courte
+                        présentation de moi même.</p>
+                    <p>Je me nomme, comme inscrit en gros partout, Gaëtan EVAIN et je suis un papa, qui mise son futur
+                        dans sa capacité a crée une carrière tout en prenant soin de ses enfants.Je me suis réinventé et
+                        réinventé encore pour atteindre se but.
+                        Le dernier défi que je me suis fixé est de me former au développement à travers le BTS SIO
+                        option SLAM propose par le GRETA
+                    <p>Mais qu'est-ce donc que tout cela me direz vous ?
+                        Et bien soyer rassurer tout est expliquer si apres.
+                    </p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><b>Le B.T.S</b></h2>
+                <p>
+                    Le Brevet de Technicien Supérieur aux Services Informatiques aux Organisations (BTS SIO), s'adresse
+                    à ceux qui souhaitent se former aux métiers d'administrateur réseau ou de développeur.
+                    Pour par la suite intégré directement le marché du travail ou continuer des études, dans le domaine
+                    de l'informatique.
+                </p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="service">
+                        <div class="service__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 512 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                <path
+                                    d="M48 352c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48zm416 0c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48zm-119 11.1c4.6-14.5 1.6-30.8-9.8-42.3-11.5-11.5-27.8-14.4-42.3-9.9-7-13.5-20.7-23-36.9-23s-29.9 9.5-36.9 23c-14.5-4.6-30.8-1.6-42.3 9.9-11.5 11.5-14.4 27.8-9.9 42.3-13.5 7-23 20.7-23 36.9s9.5 29.9 23 36.9c-4.6 14.5-1.6 30.8 9.9 42.3 8.2 8.2 18.9 12.3 29.7 12.3 4.3 0 8.5-1.1 12.6-2.5 7 13.5 20.7 23 36.9 23s29.9-9.5 36.9-23c4.1 1.3 8.3 2.5 12.6 2.5 10.8 0 21.5-4.1 29.7-12.3 11.5-11.5 14.4-27.8 9.8-42.3 13.5-7 23-20.7 23-36.9s-9.5-29.9-23-36.9zM512 224c0-53-43-96-96-96-.6 0-1.1.2-1.6.2 1.1-5.2 1.6-10.6 1.6-16.2 0-44.2-35.8-80-80-80-24.6 0-46.3 11.3-61 28.8C256.4 24.8 219.3 0 176 0 114.1 0 64 50.1 64 112c0 7.3.8 14.3 2.1 21.2C27.8 145.8 0 181.5 0 224c0 53 43 96 96 96h43.4c3.6-8 8.4-15.4 14.8-21.8 13.5-13.5 31.5-21.1 50.8-21.3 13.5-13.2 31.7-20.9 51-20.9s37.5 7.7 51 20.9c19.3.2 37.3 7.8 50.8 21.3 6.4 6.4 11.3 13.8 14.8 21.8H416c53 0 96-43 96-96z" />
+                            </svg>
+                        </div>
+                        <div class="service__content">
+                            <h3><b>Option S.L.A.M</b></h3>
+                            <p>L’option Solutions logicielles et applications métiers forme des spécialistes des
+                                logiciels (rédaction d’un cahier des charges, formulation des besoins et spécifications,
+                                développement, intégration au sein de la société).
+                                Les techniciens supérieurs en informatique option SLAM, sont préparés aux métiers de :
+                            </p>
+                            <ul class="list">
+                                <li>Développeur d’applications informatiques</li>
+                                <li>Développeur informatique</li>
+                                <li>Analyste d’applications ou d’études</li>
+                                <li>Analyste programmeur</li>
+                                <li>Programmeur d’applications</li>
+                                <li>Responsable des services applicatifs</li>
+                                <li>Technicien d’études informatiques</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="service">
+                        <div class="service__icon">
+                            <--! <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                <path
+                                    d="M439.15 453.06L297.17 384l141.99-69.06c7.9-3.95 11.11-13.56 7.15-21.46L432 264.85c-3.95-7.9-13.56-11.11-21.47-7.16L224 348.41 37.47 257.69c-7.9-3.95-17.51-.75-21.47 7.16L1.69 293.48c-3.95 7.9-.75 17.51 7.15 21.46L150.83 384 8.85 453.06c-7.9 3.95-11.11 13.56-7.15 21.47l14.31 28.63c3.95 7.9 13.56 11.11 21.47 7.15L224 419.59l186.53 90.72c7.9 3.95 17.51.75 21.47-7.15l14.31-28.63c3.95-7.91.74-17.52-7.16-21.47zM150 237.28l-5.48 25.87c-2.67 12.62 5.42 24.85 16.45 24.85h126.08c11.03 0 19.12-12.23 16.45-24.85l-5.5-25.87c41.78-22.41 70-62.75 70-109.28C368 57.31 303.53 0 224 0S80 57.31 80 128c0 46.53 28.22 86.87 70 109.28zM280 112c17.65 0 32 14.35 32 32s-14.35 32-32 32-32-14.35-32-32 14.35-32 32-32zm-112 0c17.65 0 32 14.35 32 32s-14.35 32-32 32-32-14.35-32-32 14.35-32 32-32z" />
+                                </svg> -->
+                        </div>
+                        <div class="service__content">
+                            <h3><b>Option S.I.S.R</b></h3>
+                            <p>L’option Solution d’infrastructure, systèmes et réseaux forme des professionnels des
+                                réseaux et équipements informatiques (installation, maintenance, sécurité). En sortant
+                                d’un BTS SIO SISR, vous serez capables de gérer et d’administrer le réseau d’une société
+                                et d’assurer sa sécurité et sa maintenance.
+                                Les techniciens supérieurs en informatique option SISR, peuvent accéder aux métiers de :
+                            </p>
+                            <ul class="list">
+                                <li>Administrateur systèmes et réseaux</li>
+                                <li>Informaticien support et déploiement</li>
+                                <li>Pilote d’exploitation</li>
+                                <li>Support systèmes et réseaux</li>
+                                <li>Technicien d’infrastructure</li>
+                                <li>Technicien de production</li>
+                                <li>Technicien micro et réseaux</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="section-title">Le Greta</h2>
+                <p>Un Greta est un groupement d'établissements publics locaux d'enseignement qui mutualisent leurs
+                    compétences et leurs
+                    moyens pour proposer des formations continues pour adultes. Il s’appuie sur les ressources en
+                    équipements et en
+                    personnels de ces établissements pour construire une offre de formation adaptée à l’économie locale.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Competences</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus porro pariatur voluptate totam
+                    quasi! Aperiam, praesentium doloribus harum recusandae vero accusantium in, ipsa sit maiores omnis
+                    enim id cupiditate dolore
+                </p>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <h3>Domaines de compétence</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <h4>Compétence</h4>
+                            <p>description de la competence</p>
+                        </li>
+                        <li>
+                            <h4>Compétence</h4>
+                            <p>description de la competence</p>
+                        </li>
+                        <li>
+                            <h4>Compétence</h4>
+                            <p>description de la competence</p>
+                        </li>
+                        <li>
+                            <h4>Compétence</h4>
+                            <p>description de la competence</p>
+                        </li>
+                        <li>
+                            <h4>Compétence</h4>
+                            <p>description de la competence</p>
+                        </li>
+                        <li>
+                            <h4>Compétence</h4>
+                            <p>description de la competence</p>
+                        </li>
+                        <li>
+                            <h4>Compétence</h4>
+                            <p>description de la competence</p>
+                        </li>
+                        <li>
+                            <h4>Compétence</h4>
+                            <p>description de la competence</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="grid__item">
+                    <h3>Compétence developpement</h3>
+                    <div class="progress_bar">
+                        <div class="bar">HTML</div>
+                        <div class="bar">CSS</div>
+                        <div class="bar">JAVASCRIPT</div>
+                        <div class="bar">PYTHON</div>
+                        <div class="bar">C#</div>
+                        <div class="bar">SQL</div>
+                    </div>
+                    <h3>Autres talents</h3>
+                    <div class="progress_bar">
+                        <div class="bar">COMPTAGE DE LICORNE</div>
+                        <div class="bar">BAGUARRE</div>
+                        <div class="bar">ANXIETE</div>
+                        <div class="bar">BLAGUE GRIVOISE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portefolio" class="portefolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portefolio</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus porro pariatur voluptate totam
+                    quasi! Aperiam, praesentium doloribus harum recusandae vero accusantium in, ipsa sit maiores omnis
+                    enim id cupiditate dolore
+                </p>
+            </div>
+            <ul class="grid portefolio-filter list-unstyled">
+                <li class="grid__item">
+                    <a href="#"> Type Projet 1</a>
+                </li>
+                <li class="grid__item">
+                    <a href="#"> Type Projet 2</a>
+                </li>
+                <li class="grid__item">
+                    <a href="#"> Type Projet 3</a>
+                </li>
+                <li class="grid__item">
+                    <a href="#"> Type Projet 4</a>
+                </li>
+            </ul>
+            <div class="grid">
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=1" alt="Projet 1" class="card_image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre Projet 1</h3>
+                            <p class="category">Type Projet 1</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=2" alt="Projet 1" class="card_image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre Projet 2</h3>
+                            <p class="category">Type Projet 2</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=3" alt="Projet 1" class="card_image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre Projet 3</h3>
+                            <p class="category">Type Projet 3</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=4" alt="Projet 1" class="card_image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre Projet 4</h3>
+                            <p class="category">Type Projet 4</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=5" alt="Projet 1" class="card_image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre Projet 5</h3>
+                            <p class="category">Type Projet 1 </p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__item">
+                    <div class="card">
+                        <img src="https://picsum.photos/600/400?random=6" alt="Projet 1" class="card_image">
+                        <div class="card__inner">
+                            <h3 class="card__title">Titre Projet 6</h3>
+                            <p class="category">Type Projet 2</p>
+                        </div>
+                        <div class="card__overlay">
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">contact</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus porro pariatur voluptate totam
+                    quasi! Aperiam, praesentium doloribus harum recusandae vero accusantium in, ipsa sit maiores omnis
+                    enim id cupiditate dolore
+                </p>
+            </div>
+            <form action="contact.php" class="form">
+                <label for="firstname">
+                    <input type="text" name="firstname" id="firstname" placeholder="Nom">
+                </label>
+                <label for="lastname">
+                    <input type="text" name="lastname" id="lastname" placeholder="Prenom">
+                </label>
+                <label for="email">
+                    <input type="email" name="email" id="email" placeholder="email">
+                </label>
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="grid">
+                <div class="grid__item">
+                    <p>Gaetan EVAIN</p>
+                </div>
+                <div class="grid__item">
+                    <ul class="socials list-unstyled">
+                        <li><a href="www.linkedin.com/in/gaetan-e-273b56182" target="_blank">
+                                <svg width="18" class="icon linkedin" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 448 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                    <path
+                                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                                </svg>
+                            </a></li>
+                        <li><a href="" target="_blank">
+                                <svg width="18" class="icon github" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 496 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) -->
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+                <div class="grid__item">
+                    <p>copyrite</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
